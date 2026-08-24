@@ -1023,10 +1023,10 @@ Pemisahan ini membuat project lebih terstruktur dan memudahkan pengembangan.
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/USERNAME/REPOSITORY.git
+https://github.com/audriokt/movie_recommender.git
 
 # 2. Masuk project
-cd REPOSITORY
+cd movie_recommender
 
 # 3. Buat virtual environment
 python -m venv venv
@@ -1147,7 +1147,7 @@ Model dan parameter preprocessing disimpan sebagai artifacts sehingga aplikasi d
 
 # 👤 Author
 
-**Nama:** [Nama Anda]
+**Nama:** Audrio
 
 **Project:** Movie Recommendation System
 
@@ -1163,12 +1163,6 @@ Model dan parameter preprocessing disimpan sebagai artifacts sehingga aplikasi d
 
 # 📄 License
 
-Tambahkan lisensi sesuai kebutuhan project.
-
-Contoh:
-
 ```text
 MIT License
 ```
-
-Jika dataset berasal dari pihak ketiga, pastikan ketentuan lisensi dataset juga dipatuhi.
