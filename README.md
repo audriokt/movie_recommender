@@ -646,16 +646,14 @@ movie-recommendation-system/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/USERNAME/REPOSITORY.git
+https://github.com/audriokt/movie_recommender.git
 ```
 
 Kemudian:
 
 ```bash
-cd REPOSITORY
+cd movie_recommender
 ```
-
-Ganti `USERNAME` dan `REPOSITORY` dengan informasi repository GitHub Anda.
 
 ## 2. Membuat Virtual Environment
 
