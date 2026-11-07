@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System
+# Movie Recommendation System
 
 Sistem rekomendasi film berbasis **Content-Based Filtering** yang memberikan rekomendasi film berdasarkan kemiripan karakteristik dan informasi konten film.
 
@@ -13,7 +13,7 @@ Sistem memanfaatkan:
 
 ---
 
-## 📌 Daftar Isi
+## Daftar Isi
 
 - [Tentang Sistem](#-tentang-sistem)
 - [Tujuan](#-tujuan)
@@ -37,7 +37,7 @@ Sistem memanfaatkan:
 
 ---
 
-# 🎯 Tentang Sistem
+# Tentang Sistem
 
 Movie Recommendation System menggunakan pendekatan **Content-Based Filtering**.
 
@@ -65,7 +65,7 @@ Semakin tinggi nilai cosine similarity, semakin mirip karakteristik kedua film.
 
 ---
 
-# 🎯 Tujuan
+# Tujuan
 
 Sistem ini dibuat untuk:
 
@@ -82,7 +82,7 @@ Sistem ini dibuat untuk:
 
 ---
 
-# 📊 Dataset
+# Dataset
 
 Dataset merupakan dataset metadata film yang berisi informasi seperti:
 
@@ -114,7 +114,7 @@ Dataset mentah tidak langsung digunakan oleh frontend. Dataset melewati preproce
 
 ---
 
-# 🏗️ Arsitektur Sistem
+# Arsitektur Sistem
 
 ```text
                          RAW DATASET
@@ -158,7 +158,7 @@ Dataset mentah tidak langsung digunakan oleh frontend. Dataset melewati preproce
 
 ---
 
-# 🧹 Preprocessing Dataset
+# Preprocessing Dataset
 
 Pipeline preprocessing:
 
@@ -301,7 +301,7 @@ menjadi:
 
 ---
 
-# 🔢 Feature Engineering
+# Feature Engineering
 
 Fitur dibagi menjadi:
 
@@ -395,7 +395,7 @@ Pengaturan `handle_unknown="ignore"` memungkinkan data baru memiliki kategori ya
 
 ---
 
-# 🤖 Model dan Metode
+# Model dan Metode
 
 | Metode | Digunakan Untuk |
 |---|---|
@@ -408,7 +408,7 @@ Pengaturan `handle_unknown="ignore"` memungkinkan data baru memiliki kategori ya
 
 ---
 
-# 📚 TF-IDF
+# TF-IDF
 
 TF-IDF digunakan untuk merepresentasikan informasi teks:
 
@@ -439,7 +439,7 @@ Setiap film memperoleh vector TF-IDF berdasarkan kata-kata yang terdapat pada ge
 
 ---
 
-# 🧠 Word2Vec
+# Word2Vec
 
 Word2Vec digunakan untuk:
 
@@ -477,7 +477,7 @@ Untuk setiap film, vector actor dan director yang tersedia dirata-ratakan sehing
 
 ---
 
-# 🔗 Combined Embedding
+# Combined Embedding
 
 Seluruh fitur digabungkan menjadi satu vector:
 
@@ -510,7 +510,7 @@ Hasil akhirnya adalah satu vector representasi untuk setiap film.
 
 ---
 
-# 📐 Cosine Similarity
+# Cosine Similarity
 
 Kemiripan dihitung menggunakan Cosine Similarity:
 
@@ -546,7 +546,7 @@ Film dengan nilai similarity tertinggi dipilih sebagai rekomendasi.
 
 ---
 
-# 💾 Penyimpanan Model
+# Penyimpanan Model
 
 Agar aplikasi tidak perlu melakukan training setiap kali dijalankan:
 
@@ -606,7 +606,7 @@ Informasi dimensi dan konfigurasi fitur untuk pemeriksaan dan debugging.
 
 ---
 
-# 📁 Struktur Project
+# Struktur Project
 
 ```text
 movie-recommendation-system/
@@ -641,7 +641,7 @@ movie-recommendation-system/
 
 ---
 
-# 🚀 Instalasi dari GitHub
+# Instalasi dari GitHub
 
 ## 1. Clone Repository
 
@@ -685,7 +685,7 @@ pip install numpy pandas scikit-learn gensim joblib streamlit
 
 ---
 
-# 🏋️ Training Model
+# Training Model
 
 Training diperlukan jika artifacts belum tersedia atau dataset berubah.
 
